@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>  
+        <title>벌점지켜</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="MainCss.css">
+        <link rel="shortcut icon" href='image/logo.png'>
+    </head>
+    <body>
+        <a href="https://beol-gq.github.io/beolweb.github.io/beolgq"><img id="logo" src="image/logo_first.png"></a>
+        <div id="bar" style="display: flex;">
+            <span class="blank"></span>
+            <div class="dropdown">
+                <a class="dropbtn" onclick="" data-toggle="dropdown">소개</a>
+                <div class="dropdown-content">
+                    <a href="1.html">벌점지켜</a>
+                    <a href="Developer.html">개발자</a>
+                </div>
+            </div>
+            <span class="blank"></span>
+            <div class="dropdown">
+                <a class="dropbtn" onclick="" data-toggle="dropdown">소식</a>
+                <div class="dropdown-content">
+                    <a href="#">공지사항</a>
+                    <a href="#">분실물</a>
+                </div>
+            </div>
+            <span class="blank"></span>
+            <div class="dropdown">
+                <a class="dropbtn" onclick="" data-toggle="dropdown">바로가기</a>
+                <div class="dropdown-content">
+                    <a href="https://jeonnam-sh.hs.jne.kr/user/indexMain.action?siteId=chonnam-sh_hs">전남과학고</a>
+                    <a href="https://jshsus.kr/">과구리</a>
+                    <a href="https://jshs.munzii.com/">전곽일보</a>
+                    <a href="Daily/index.html">Daily전곽</a>
+                </div>
+            </div>
+            <span class="blank"></span>
+            <div class="dropdown">
+                <a class="dropbtn" onclick="" data-toggle="dropdown">전곽 생활</a>
+                <div class="dropdown-content">
+                    <a href="#">자유게시판</a>
+                    <a href="#">탐활서</a>
+                    <a href="#">상벌점</a>
+                </div>
+            </div>
+            <span class="blank"></span>
+            <div class="dropdown">
+                <a class="dropbtn" onclick="" data-toggle="dropdown">기타 기능</a>
+                <div class="dropdown-content">
+                    <a href="#">사감실 TV</a>
+                    <a href="#">실험실</a>
+                </div>
+            </div>
+            <span class="blank"></span>
+            <div class="dropdown">
+                <a class="dropbtn" id="accountBtn" onclick="" data-toggle="dropdown">계정</a>
+                <div class="dropdown-content">
+                    <a href="#">회원 정보</a>
+                    <a href="signin.html" id="beforeLogin-1">로그인</a>
+                    <a href="#" id="afterLogin-1">로그아웃</a>
+                </div>
+            </div>
+        </div>
+        <center>
+            <h1 class="happy">즐거운 탐활 되세요!</h1>
+            <div class="this">
+                <div class="ssam-info">
+                    <div class="info-body">
+                        탐활서 발급은 <a href="https://jshsus.kr/contents/ssam/club/">과구리</a>를 이용해주세요.<br>
+                        탐활서를 인쇄하려면 
+                        <a href="https://docs.google.com/spreadsheets/u/1/d/12npSwWIrUS7wh9l_r3BXDo2Us9NSZA6jv2ArtScjWl4/edit#gid=0">이곳</a>
+                        을 클릭하세요.
+                    </div>
+                </div>
+            </div>
+        </center>
+        <div class="row" id="contViewDiv">
+            <div class="card-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="card" style="padding:20px;">
+                <h3>탐활서 조회</h3>
+                <div id="contViewContents">
+                </div>
+              </div>
+              <span><button class="btn btn-secondary goback">이전으로</button></span>
+            </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-storage.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-auth.js"></script>
+        <script src="https://jshsus.kr/resources/jquery.js"></script>
+        <script src="https://jshsus.kr/resources/bootstrap.js"></script>
+        <script src="signin_js.js"></script>
+        <script src="ssam_js.js"></script>
+    </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+    <head>  
+        <title>벌점지켜</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="MainCss.css">
+        <link rel="shortcut icon" href='image/logo.png'>
+    </head>
+    <body>
+        <a href="https://beol-gq.github.io/beolweb.github.io/beolgq"><img id="logo" src="image/logo_first.png"></a>
+        <div id="bar" style="display: flex;">
+            <span class="blank"></span>
+            <div class="dropdown">
+                <a class="dropbtn" onclick="" data-toggle="dropdown">소개</a>
+                <div class="dropdown-content">
+                    <a href="1.html">벌점지켜</a>
+                    <a href="Developer.html">개발자</a>
+                </div>
+            </div>
+            <span class="blank"></span>
+            <div class="dropdown">
+                <a class="dropbtn" onclick="" data-toggle="dropdown">소식</a>
+                <div class="dropdown-content">
+                    <a href="#">공지사항</a>
+                    <a href="#">분실물</a>
+                </div>
+            </div>
+            <span class="blank"></span>
+            <div class="dropdown">
+                <a class="dropbtn" onclick="" data-toggle="dropdown">바로가기</a>
+                <div class="dropdown-content">
+                    <a href="https://jeonnam-sh.hs.jne.kr/user/indexMain.action?siteId=chonnam-sh_hs">전남과학고</a>
+                    <a href="https://jshsus.kr/">과구리</a>
+                    <a href="https://jshs.munzii.com/">전곽일보</a>
+                    <a href="Daily/index.html">Daily전곽</a>
+                </div>
+            </div>
+            <span class="blank"></span>
+            <div class="dropdown">
+                <a class="dropbtn" onclick="" data-toggle="dropdown">전곽 생활</a>
+                <div class="dropdown-content">
+                    <a href="#">자유게시판</a>
+                    <a href="ssam.html">탐활서</a>
+                    <a href="#">상벌점</a>
+                </div>
+            </div>
+            <span class="blank"></span>
+            <div class="dropdown">
+                <a class="dropbtn" onclick="" data-toggle="dropdown">기타 기능</a>
+                <div class="dropdown-content">
+                    <a href="#">사감실 TV</a>
+                    <a href="#">실험실</a>
+                </div>
+            </div>
+            <span class="blank"></span>
+            <div class="dropdown">
+                <a class="dropbtn" id="accountBtn" onclick="" data-toggle="dropdown">계정</a>
+                <div class="dropdown-content">
+                    <a href="#">회원 정보</a>
+                    <a href="signin.html" id="beforeLogin-1">로그인</a>
+                    <a href="#" id="afterLogin-1">로그아웃</a>
+                </div>
+            </div>
+        </div>
+        <center>
+            <div id="beforeLogin" class="Input">
+                <h1 class="Mess">과구리 계정으로 로그인</h1>
+                <a class="BoxText">ID입력</a><br>
+                <input class="IdBox" id="logId" placeholder="아이디를 입력하세요" onclick=""></input><br><br>
+                <a class="BoxText">PW입력</a><br>
+                <input class="PwBox" id="logPw" placeholder="비밀번호를 입력하세요" type="password" onclick=""></input>
+                <div class="LoginBtn">
+                    <button class="SigninBtn" id="loginBtn"onclick="login1()">Login</button>
+                </div>
+            </div>
+            <div id="afterLogin">
+                <h1 class="welcome" id="welcome">안녕</h1>
+                <a class="goto" href="https://beol-gq.github.io/beolweb.github.io/beolgq">메인 화면으로 이동</a>
+            </div>
+        </center>
+        <h1><script type = javascript.js>Nickname</script></h1>
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-storage.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-auth.js"></script>
+        <script src="https://jshsus.kr/resources/jquery.js"></script>
+        <script src="https://jshsus.kr/resources/bootstrap.js"></script>
+        <script src="signin_js.js"></script>
+    </body>
+</html>
