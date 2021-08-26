@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>데일리전곽</title>
+    <link rel="stylesheet" href="signin_css.css">
+    <link rel="shortcut icon" href='../image/logo_simple.png'>
+</head>
+<body>
+    <div id="bar">
+        <a class="logo" href="https://beol-gq.github.io/beolweb/Daily">Daily전곽</a>
+        <span class="ver_line">|</span>
+        <a class="menu" href="http://jeonnam-sh.hs.jne.kr/user/indexMain.action?siteId=chonnam-sh_hs">전남과학고</a>
+        <span class="ver_line">|</span>
+        <a class="menu" href="https://beol-gq.github.io/beolweb">벌점지켜</a>
+        <span class="ver_line">|</span>
+        <a class="menu" href="https://jshsus.kr">과구리</a>
+        <span class="ver_line">|</span>
+        <a class="menu" href="https://jshs.munzii.com/">전곽일보</a>
+    </div>
+    <div class="second_bar">
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">뉴스홈</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">속보</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">IT</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">과학</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">생활</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">세계</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">경제</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">정치</span>
+            </a>
+        </span>
+        <span class="blank_small"></span>
+        <span class="content">
+            <a class="content_click" href="#">
+                <span class="content_text">포토</span>
+            </a>
+        </span>
+        <div class="news_search">
+            <input class="search" placeholder="뉴스 검색">
+        </div>
+    </div>
+    <div class="inner_line"></div>
+    <center>
+        <div id="beforeLogin" class="Input">
+            <a class="BoxText">ID입력</a><br>
+            <input class="IdBox" id="logId" placeholder="아이디를 입력하세요" onclick=""></input><br><br>
+            <a class="BoxText">PW입력</a><br>
+            <input class="PwBox" id="logPw" placeholder="비밀번호를 입력하세요" type="password" onclick=""></input>
+            <div class="LoginBtn">
+                <button class="SigninBtn" id="loginBtn"onclick="login1()">Login</button>
+            </div>
+        </div>
+        <div id="afterLogin">
+            <h1 class="welcome" id="welcome"></h1>
+        </div>
+    </center>
+</body>
+</html>
