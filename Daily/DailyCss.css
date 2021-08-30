@@ -27,6 +27,18 @@
     src: url("font/batang.ttf");
     font-family: "flower";
     src: url("font/flower.ttf");
+} @font-face {
+    font-family: "showg";
+    src: url("font/SHOWG.TTF");
+} @font-face {
+    font-family: "picaso";
+    src: url("font/picaso.ttf");
+} @font-face {
+    font-family: "windy";
+    src: url("font/windy.ttf");
+} @font-face {
+    font-family: "bread";
+    src: url("font/bread.ttf");
 } .menu {
     font-family: "flower";
     font-size: 23px;
@@ -111,6 +123,7 @@
     display: block;
     float: none;
 } .photo {
+    transition: 0.3s;
     width: 300px;
     height: 200px;
 } .news_part {
@@ -126,10 +139,13 @@
 } .blank_text {
     padding: 8px;
 } .headline_text_click {
+    transition: 0.3s;
     text-decoration: none;
     color: black;
 } .headline_text_click:hover {
+    transition: 0.3s linear;
     text-decoration: underline;
+    font-size: 17.5px;
 } .headline_text_name {
     font-family: "head";
     font-size: 15px;
@@ -155,6 +171,8 @@
         display: none;
     } .headline_text {
         display: inline;
+    } .notice {
+        display: none;
     }
 } @media (max-width: 1052px) {
     .search {
@@ -183,6 +201,7 @@
         font-size: 14px;
     }
 } .login {
+    transition: 0.2s;
     font-family: "main";
     font-size: 25px;
     color: black;
@@ -198,9 +217,42 @@
         display: none;
     }
 } .login:hover {
+    transition: 0.2s;
     background-color: rgb(121, 121, 121);
+    transform: scale(1.1);
 } .photo:hover {
-    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    width: 330px;
+    height: 220px;
 } .photo_click {
+    text-decoration: none;
+} .notice {
+    transition: 0.3s;
+    margin-top: 30px;
+    background-color: rgb(238, 238, 238);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+    border: solid 1px black;
+    height: auto;
+} .notice_title {
+    font-family: "windy";
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+} .notice:hover {
+    transition: 0.3s;
+    background-color: rgb(209, 209, 209);
+    transform: scale(1.01);
+} .notice_ment {
+    font-family: "bread";
+    font-size: 20px;
+    padding-left: 10px;
+    color: black;
+    font-weight: 100;
+} .notice_move {
     text-decoration: none;
 }

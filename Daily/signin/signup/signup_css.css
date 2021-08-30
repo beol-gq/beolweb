@@ -19,14 +19,14 @@
     font-style: 25px;
 } @font-face {
     font-family: "head";
-    src: url("../font/head.ttf");
+    src: url("../../font/head.ttf");
     font-family: "main";
-    src: url("../font/main_font.ttf");
+    src: url("../../font/main_font.ttf");
 } @font-face {
     font-family: "batang";
-    src: url("../font/batang.ttf");
+    src: url("../../font/batang.ttf");
     font-family: "flower";
-    src: url("../font/flower.ttf");
+    src: url("../../font/flower.ttf");
 } .menu {
     font-family: "flower";
     font-size: 23px;
@@ -195,14 +195,20 @@
     background-color: #2d59c7;
 } .Input {
     padding-top: 50px;
-} .signup {
+} .signup_title {
     font-family: "main";
-    font-size: 20px;
-    padding: 20px;
-} .signup_button {
-    padding-left: 100px;
-    text-decoration: none;
-    color: black;
-} .signup_button:hover {
-    text-decoration: underline;
+    font-size: 30px;
+    padding-top: 60px;
+} .same_confirm {
+    background-color: #8799c5;
+    border-radius: 5px;
+    width: 120px;
+    font-family: "main";
+    font-size: 17px;
+} .complete {
+    background-color: #8799c5;
+    border-radius: 5px;
+    width: 120px;
+    font-family: "main";
+    font-size: 17px;
 }

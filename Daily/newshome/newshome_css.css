@@ -91,6 +91,52 @@
     .blank_small {
         padding-left: 1%;
     }
+} .head {
+    font-family: "main";
+    font-size: 40px;
+    display: inline-block;
+} .sub_head {
+    display: inline-block;
+    font-size: 15px;
+    font-family: "main";
+    color: rgb(117, 117, 117);
+} .head_line {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: inline;
+} .headline_photo {
+    height: auto;
+    margin-right: 15%;
+    margin-left: 15%;
+    display: block;
+    float: none;
+} .photo {
+    width: 300px;
+    height: 200px;
+} .news_part {
+    padding-left: 15%;
+    padding-right: 15%;
+} .headline_text {
+    padding-right: 15%;
+    display: inline-block;
+    list-style: none;
+    font-family: "head";
+    font-size: 17px;
+    font-weight: 800;
+} .blank_text {
+    padding: 8px;
+} .headline_text_click {
+    text-decoration: none;
+    color: black;
+} .headline_text_click:hover {
+    text-decoration: underline;
+} .headline_text_name {
+    font-family: "head";
+    font-size: 15px;
+    color: rgb(131, 131, 131);
+    font-weight: 100;
+    text-decoration: none;
+    padding-left: 20px;
 } .div {
     height: 1px;
     background-color: black;
@@ -153,56 +199,12 @@
     }
 } .login:hover {
     background-color: rgb(121, 121, 121);
-} .Mess {
-    font-family: "main";
-    font-size: 30px;
-    font-weight: 500;
-    padding-top: 0px;
-    margin-top: 0px;
-} .BoxText {
-    font-size: 15px;
-    font-family: "head";
-    font-weight: 500;
-} .IdBox {
-    margin-top: 10px;
-    width: 400px;
-    height: 30px;
-    text-align: left;
-    border-radius: 5px;
-    font-size: 15px;
-    font-family: "head";
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
-} .PwBox {
-    margin-top: 10px;
-    width: 400px;
-    height: 30px;
-    text-align: left;
-    border-radius: 5px;
-    font-size: 15px;
-    font-family: "head";
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
-} .SigninBtn {
-    margin-top: 20px;
-    width: 100px;
-    height: 30px;
-    font-family: "main";
-    font-size: 20px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    background-color: #6586da;
-} .SigninBtn:hover {
-    cursor: pointer;
-    background-color: #2d59c7;
-} .Input {
-    padding-top: 50px;
-} .signup {
-    font-family: "main";
-    font-size: 20px;
-    padding: 20px;
-} .signup_button {
-    padding-left: 100px;
+} .photo:hover {
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.2);
+} .photo_click {
     text-decoration: none;
-    color: black;
-} .signup_button:hover {
-    text-decoration: underline;
+} .document_title {
+    font-size: 20px;
+    font-family: "head";
+    float: initial;
 }

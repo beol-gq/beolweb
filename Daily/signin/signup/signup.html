@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>데일리전곽</title>
-    <link rel="stylesheet" href="signin_css.css">
-    <link rel="shortcut icon" href='../image/logo_simple.png'>
+    <link rel="stylesheet" href="signup_css.css">
+    <link rel="shortcut icon" href='../../image/logo_simple.png'>
 </head>
 <body>
     <div id="bar">
@@ -78,19 +78,19 @@
     </div>
     <div class="inner_line"></div>
     <center>
-        <div id="beforeLogin" class="Input">
+        <h1 class="signup_title">회원가입</h1>
+        <div class="Input">
             <a class="BoxText">ID입력</a><br>
             <input class="IdBox" id="logId" placeholder="아이디를 입력하세요" onclick=""></input><br><br>
+            <button class="same_confirm">중복확인</button><br><br>
             <a class="BoxText">PW입력</a><br>
-            <input class="PwBox" id="logPw" placeholder="비밀번호를 입력하세요" type="password" onclick=""></input>
-            <div class="LoginBtn">
-                <button class="SigninBtn" id="loginBtn"onclick="login1()">Login</button>
-            </div>
+            <input class="PwBox" id="logPw" placeholder="비밀번호 입력" type="password" onclick=""></input><br><br>
+            <a class="BoxText">PW확인</a><br>
+            <input class="PwBox" id="logPw" placeholder="비밀번호 확인" type="password" onclick=""></input><br><br>
+            <a class="BoxText">인증 코드 입력</a><br>
+            <input class="IdBox" id="logId" placeholder="부여받은 인증코드를 입력하세요" onclick=""></input><br><br>
         </div>
-        <div class="signup">
-            <a>아직 회원이 아니신가요?</a>
-            <a class="signup_button" href="signup/signup.html">회원가입</a>
-        </div>
+        <button class="complete">회원가입</button>
     </center>
 </body>
 </html>
