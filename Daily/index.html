@@ -86,13 +86,16 @@
         <h3 class="notice_ment">현재 외부 뉴스는 네이버 뉴스로 연결됩니다.</h3>
         <h3 class="notice_ment">학생 기자 모집중...(jshs20201418@h.jne.go.kr로 연락주세요)</h3>
     </div>
+    <div class="photo_show" id="photo_show">
+        <br><input type="button" class="photo_show_button" value="사진 표시" onclick="toggleDiv_1(), toggleDiv_2(), toggleDiv_3()">
+    </div>
     <div class="news_part">
         <h1 class="head">헤드라인 뉴스</h1>
         <span class="sub_head">| 헤드라인 뉴스와 각 기사묶음 타이틀은 개발자 마음대로 정합니다.</span>
     </div>
     <div class="headline_photo">
         <a class="photo_click" href="https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=105&oid=001&aid=0012628882">
-            <img class="photo" src="image/apple.png">
+            <img class="photo" id="photo_1" src="image/apple.png">
         </a>
         <ul class="headline_text">
             <li>
@@ -130,7 +133,7 @@
     </div>
     <div class="headline_photo">
         <a class="photo_click" href="https://news.naver.com/main/read.naver?mode=LSD&mid=shm&sid1=105&oid=092&aid=0002232184">
-            <img class="photo" src="image/zfold3.png">
+            <img class="photo" id="photo_2" src="image/zfold3.png">
         </a>
         <ul class="headline_text">
             <li>
@@ -168,7 +171,7 @@
     </div>
     <div class="headline_photo">
         <a class="photo_click" href="https://news.naver.com/main/read.naver?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=015&aid=0004598415">
-            <img class="photo" src="image/vaccine.png">
+            <img class="photo" id="photo_3" src="image/vaccine.png">
         </a>
         <ul class="headline_text">
             <li>
@@ -197,5 +200,6 @@
             </li>
         </ul>
     </div>
+    <script src="javascript.js"></script>
 </body>
 </html>

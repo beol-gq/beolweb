@@ -126,6 +126,7 @@
     transition: 0.3s;
     width: 270px;
     height: 180px;
+    margin-right: 20px;
 } .news_part {
     padding-left: 15%;
     padding-right: 15%;
@@ -136,6 +137,7 @@
     font-family: "head";
     font-size: 17px;
     font-weight: 800;
+    padding-left: 0px;
 } .blank_text {
     padding: 8px;
 } .headline_text_click {
@@ -255,5 +257,23 @@
 } @media (max-width: 1240px) {
     .notice_ment {
         font-size: 15px;
+    } .headline_text {
+        padding-left: 0px;
     }
+} .photo_show {
+    transition: 0.2s;
+    padding-left: 15%;
+    padding-right: 15%;
+} .photo_show_button {
+    background-color: #8fa7e2;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 17px;
+    font-family: "main";
+    float: right;
+} .photo_show_button:hover {
+    transition: 0.2s;
+    background-color: #5274c9;
+    transform: scale(1.05);
 }

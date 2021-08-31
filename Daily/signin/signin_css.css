@@ -200,7 +200,7 @@
     font-size: 20px;
     padding: 20px;
 } .signup_button {
-    padding-left: 100px;
+    margin-left: 100px;
     text-decoration: none;
     color: black;
 } .signup_button:hover {
