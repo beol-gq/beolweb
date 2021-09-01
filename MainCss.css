@@ -215,6 +215,7 @@
     font-size: 20px;
     font-weight: 100;
 } .container {
+    transition: 0.3s;
     width: 60%;
     height: auto;
     background-color: rgb(240, 240, 240);
@@ -228,6 +229,7 @@
     background-color: rgb(218, 218, 218);
     border: 1px solid rgb(138, 138, 138);
     border-radius: 10px;
+    transition: 0.3s;
 } .role-sub {
     font-family: "maple";
     font-size: 20px;
@@ -244,4 +246,40 @@
     width: 40px;
 } .facebook {
     width: 40px;
+} .container:hover {
+    background-color: rgb(226, 226, 226);
+    transform: scale(1.05);
+    transition: 0.3s;
+} .role-box:hover {
+    background-color: rgb(202, 202, 202);
+    transform: scale(1.05);
+    transition: 0.3s;
+} .notice {
+    transition: 0.3s;
+    margin-top: 30px;
+    background-color: rgb(238, 238, 238);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+    border: solid 1px black;
+    height: auto;
+} .notice_title {
+    font-family: "maple";
+    padding-left: 10px;
+    font-size: 35px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+} .notice:hover {
+    transition: 0.3s;
+    background-color: rgb(209, 209, 209);
+    transform: scale(1.01);
+} .notice_ment {
+    font-family: "maple";
+    font-size: 25px;
+    padding-left: 10px;
+    color: black;
+    font-weight: 100;
+} .notice_move {
+    text-decoration: none;
 }
