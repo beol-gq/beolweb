@@ -276,4 +276,74 @@
     transition: 0.2s;
     background-color: #5274c9;
     transform: scale(1.05);
+} .water_mark {
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    height: 200px;
+} .bottom_blank {
+    height: 15px;
+} .water_title {
+    font-family: "main";
+    margin-left: 15%;
+    padding-top: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+} .blank_top {
+    margin-top: 50px;
+} .water_developer {
+    margin-left: 15%;
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    font-size: 20px;
+    font-family: "main";
+} .water_div_1 {
+    display: inline;
+} .water_trade {
+    margin-left: 1%;
+    font-size: 20px;
+    color: rgb(182, 182, 182);
+    font-family: "main";
+    text-decoration: none;
+    display: inline;
+} .water_div_2 {
+    display: inline;
+} .family_site {
+    font-family: "main";
+    margin-left: 95px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(182, 182, 182);
+} .water_family {
+    margin-left: 250px;
+    text-decoration: none;
+    font-family: "main";
+    padding-top: 20px;
+    font-size: 30px;
+    color: rgb(182, 182, 182);
+} .family_site_next {
+    font-family: "main";
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(182, 182, 182);
+    display: inline;
+} .family_developer {
+    margin-left: 140px;
+    text-decoration: none;
+    font-family: "main";
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(182, 182, 182);
+} .family_developer_next {
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: "main";
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(182, 182, 182);
+} @media (max-width: 1170px) {
+    .water_mark {
+        display: none;
+    }
 }

@@ -1,22 +1,10 @@
-function toggleDiv_1() {
-    const div = document.getElementById('photo_1');
-    if(div.style.display === 'none')  {
-      div.style.display = 'inline-block';
-    }else {
-      div.style.display = 'none';
+function toggle() {
+  const div = document.getElementsByClassName('photo');
+    for (var i = 0; i < div.length; i++) {
+      if(div[i].style.display === 'none')  {
+        div[i].style.display = 'inline-block';
+      }else {
+        div[i].style.display = 'none';
+      }
     }
-} function toggleDiv_2() {
-    const div = document.getElementById('photo_2');
-    if(div.style.display === 'none')  {
-      div.style.display = 'inline-block';
-    }else {
-      div.style.display = 'none';
-    }
-} function toggleDiv_3() {
-    const div = document.getElementById('photo_3');
-    if(div.style.display === 'none')  {
-      div.style.display = 'inline-block';
-    }else {
-      div.style.display = 'none';
-    }
-} 
+}
